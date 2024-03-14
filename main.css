@@ -1,101 +1,86 @@
  *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
  }
-body{
-    height: auto;
-    width: auto;
-
-}
- .Home{
-    
-height: 800px;
-top: 50px;
-background-color: #FFFFFF;
-
-
- }
-.navbar{
-    background-color: #FFFFFF;
+.header{
+    background-color:#FFFFFF;
     width: 100%;
     height: 100px;
     left: 165px;
-    border: 1px solid  #FFFFFF ;
 }
-.main{
+.nav-left{
     display: flex;
     padding: 30px;
-
 }
-img{
-    height: 30px;
-    width: 30px;
-    padding-left: 30px;
-    padding-top: 15px;
+.nav-left img{
+    height: 50px;
+    width: 50px;
 }
-.main h3{
-    padding-top: 10px;
-    padding-left: 30px;
-    font-size: 30px;
+.nav-left h2{
+    padding-left: 20px;
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
 }
-ul{
+  .nav-list ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 20px;
-    padding-left: 250px;
-
-}
-li{
-    float: left;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -63px;
 }
 li a{
-    display: inline;
-    padding: 8px;
-    padding-left: 100px;
+    padding-left: 80px;
 text-decoration: none;
+margin-right: 80px;
+font-size: 25px;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* --------------navbar section ends here----------- */
+.hero{
+  display: flex;
+  padding: 20px;
+  padding-left: 50px;
+  margin-top: 40px;
+}
+.hero-left{
+  padding-left: 20px;
 }
 .hero-con{
 width: 434px;
-height: 30px;
-top: 194px;
-margin-top: 100px;
+height: 35px;
 left: 155px;
 border-radius: 26.5px;
 display: flex;
 background-color:#E7F6FF;
 justify-content: center;
-padding: 2px;
-padding-top: 15px;
+padding-top: 10px;
 }
 .hero-con button{
-    height: 20px;
-    width: 60px;
+    height: 28px;
+    width: 86px;
     background-color: #193E6C;
     border: 1px solid #193E6C;
     border-radius: 20px;
     color: white;
 }
 .hero-con p{
-    padding-left: 10px;
-}
-.hero{
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        padding-left: 50px;
+  padding-bottom: 8px;
 }
 .hero-title h1{
-    font:  italic  bold  Georgia, serif;
-    color: #094B72;
-    padding-top: 20px;
+  font-family: Playfair Display;
+font-size: 80px;
+font-weight: 700;
+color: #094B72;
 }
 .hero-title p{
-    padding-top: 20px;
+    font-family: Plus Jakarta Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.5px;
+margin-top: 20px;
 }
+
 .hero-title button{
     width: 150px;
 height: 60px;
@@ -105,84 +90,63 @@ border-radius: 8px;
 font-size: medium;
 font-weight: bold;
 color: white;
-margin-top: 20px;
+margin-top: 50px;
+font-family: Plus Jakarta Sans;
 }
-
-.img-row img{
-    height:30px ;
-    width: 70px;
+.hero-title .para{
+  color:#8B8C8C; 
+  font-family: sans-serif;
 }
-.img-row{
+ .logo1{
     display: flex;
-     padding-top: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    gap: 60px;
 }
-.img-column {
-    padding: 2px;
-  }
- .hero-left{
-    padding-left: 20px;
+.logo1 img{
+    height: 20px;
+}
+.logo2{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+    gap: 40px;
+}
+.logo2 img{
+    height: 20px;
+    margin-bottom: 30px;
+}
+ .hero-right{
+  width: 65%;
  }
   .profile{
-        padding-top: 20px;
-        padding-left: 150px;
+       margin-left: 05px;
+       position: absolute;
+       margin-top: -70px;
   }
   .profile img{
-height: 500px;
-width: 500px;
+height: 700px;
+width: 400px;
 } 
-.title{
-    height: 50px;
-    width: 150px;
-    border: 1px solid lightgray;
-    background-color: lightgray;
-    border-radius: 5px;
-    text-align: center;
-    margin-left: 335px;
-}
-.service {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color:#F2F7FF;
-  padding-top: 10px; 
+.profile h3{
+  height: 70px;
+  width: 250px;
+  background-color: #FFFFFF;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 90px;
+  border-radius: 10px;
+  box-shadow: #FFFFFF;
+  display: flex;
   align-items: center;
-  padding: 70px;
-  width: auto;
-  }
-  .left {
+  justify-content: center;
+  color: #33475B;
+  font-weight: 700;
+}
+/*---------- hero section ends here-----------  */
    
-    padding-left: 100px;
-   }
-   .left p{
-    color: #8B8C8C;
-    padding: 10px;
-   }
-  .right {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    padding-right: 100px;
-    
-
-  }
-  .right-row {
-    display: flex;
-    margin-bottom: 20px;
-    gap: 30px;
-    background-color: #FCFCFC;
-   
-  }
-  .column {
-    width: 48%;
-    border: 1px solid #000;
-    padding: 10px;
-    border-radius: 5px;
-  } 
-  .column p{
-    color: #8B8C8C;
-    padding-top: 10px;
-  }
-.BG{
+ 
+/* .BG{
 height: 250px;
 width: auto;
 background-color: #094B72;
@@ -329,8 +293,19 @@ color: white;
     display: flex;
     padding-right: 100px;
   }
-  .ul {
+   .ul {
     list-style-type: none;
+    background-color: red !important;
+    margin: 0px auto;
+   }
+   .list-column ul{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px auto;
+
+   }
+   .list-column ul {
+padding: auto;
    }
 .inner-footer {
     background-color:#004D7B;
@@ -346,6 +321,4 @@ color: white;
      }
  .inner-footer .icons{
   margin-left: 700px;
-} 
-
-
+}  */
