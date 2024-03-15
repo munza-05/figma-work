@@ -28,11 +28,12 @@
     margin-top: -63px;
 }
 li a{
-    padding-left: 80px;
+    padding-left: 70px;
 text-decoration: none;
 margin-right: 80px;
 font-size: 25px;
 font-weight: bold;
+gap: 5px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* --------------navbar section ends here----------- */
@@ -121,7 +122,6 @@ font-family: Plus Jakarta Sans;
  }
   .profile{
        margin-left: 05px;
-       /* position: absolute; */
        margin-top: -60px;
   }
   .profile img{
@@ -150,10 +150,9 @@ width: 400px;
     height: 800px;
    }
    .serv-left {
-      /* flex: 1; */
       padding: 20px;
       float: left;
-      margin-top: 350px;
+      margin-top: 280px;
       width: 30%;
    }
    .serv-left h1{
@@ -180,7 +179,7 @@ text-align: left;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 280px;
+  padding-top: 200px;
  }
  .card {
   background-color: white;
@@ -217,89 +216,158 @@ letter-spacing: 0.30000001192092896px;
 text-align: left;
 }
  /* ---------------service section ends here------------ */
-/* .BG{
+ .BG{
 height: 250px;
-width: auto;
+width: 100%;
 background-color: #094B72;
 color: white;
 text-align: center;
 padding-top: 25px;
 }
-.BG .h1{
-    font-family: sans-serif;
-    margin-top: 10px;
+.achievement h1{
+    font-family: Playfair Display;
+font-size: 48px;
+font-weight: 900;
+line-height: 64px;
+letter-spacing: 0.005em;
+text-align: center;
+
 }
-.BG p{
-    margin-top: 10px;
+.achievement p{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.5px;
+text-align: center;
+
 }
 .counts{
-padding-left: 500px;
+padding-left: 420px;
 padding-top: 30px;
-gap: 25px;
+gap: 80px;
 display: flex;
+}
+.count-items{
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+.count-items h1{
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+}
+.count-items p{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.003em;
+text-align: center;
 
 }
-.client{
- width: auto;
- height: 500px;
- background-color: #F2F7FF;
- margin: auto;
+/* -------------achievement ends ------------ */
+.testimonial{
+  background-color: #F2F7FF;
+  height: 500px;
+
+}
+.main-h1{
+padding-top: 45px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #2D2F30;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.testi-cards{
+  display: flex;
+  width: Hug (1,100px);
+height: Hug (250px);
+gap: 30px;
+justify-content: center;
+margin-top: 20px;
+}
+.cards{
+  width: 400px;
+height: 250px;
+background-color: #FFFFFF;
+gap: 20px;
+border-radius: 10px;
+}
+.cards h1{
+  font-family: Poppins;
+font-size: 18px;
+font-weight: bold;
+line-height: 28px;
+text-align: center;
+padding: 10px;
  
 }
-.client h1{
+.cards p{
+  font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
 text-align: center;
-padding-top: 70px;
+}
+.person-detail{
+  display: flex;
+  justify-content: center;
+  width: Hug (209px);
+height: Hug (56px);
+gap: 16px;
+}
+.person-detail img{
+  width: 56px;
+height: 56px;
+}
+.pers-info{
+  width: Hug (137px);
+height: Hug (52px);
+}
+.pers-info h2{
+font-family: Inter;
+font-size: 18px;
 font-weight: 700;
+line-height: 45px;
+text-align: left;
 }
-.testimonial{
-    display: flex;
- text-align: center;
-padding: 10px;
-margin-left: 130px;
+.pers-info p{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 2px;
+text-align: left;
 }
-
-.card{
-    width: 350px;
-height: 230px;
-border-radius: 10px;
-color: #4F4F4F;
-border-radius: 10px;
-background-color: #FFFFFF;
-margin-top: 50px;
-margin-left: 100px;
-padding: 20px 10px 0px 10px;
-}
-.person{
-    background-color: gray;
-    margin-top: 10px;
-}
-.card img{
-    width: 50px;
-height: 50px;
-border-radius: 2px;
-
-padding-top: 8px;
-display: flex;
-float: left;
-
-}
-.card h5 {
-    display: flex;
-    padding-top: 25px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-.questions{
+/* --------------testimonial ends ------------ */
+ .questions{ 
     background-color: #FFFFFF;
-    width: auto;
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-top: 10px; 
+height: 350px;
+display: flex;
+align-items: center; 
 }
 .que-left{
+    margin-top: 40px;
     padding-left: 200px;
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.5px;
+}
+.que-left h1{
+  padding-right: 235px;
+  font-family: Playfair Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0.5px;
 }
 .que-left p{
     color: #8B8C8C;
@@ -317,38 +385,43 @@ float: left;
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
+    margin-right: 550px;
+    width: 180px;
+    height: 40px;
   }
 
   .call-button i {
     margin-right: 5px;
   }
    .que-right img{
-    width: 45%;
     display: flex;
-    padding-left: 100px;
-    height: 200px;
-    width: 200px;
+    padding-right: 170px;
+    height: 250px;
+    width: 250px;
     border-radius: 10px;
+    margin-top: 45px;
   }
-.footer {
+  /* -----------------Questions section ends here ---------------- */
+
+ .footer { 
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px;
     background-color: #094B72;
     width: auto;
-height: 400px;
-top: 3109px;
+height: 300px;
+padding-left: 200px;
 color: white;
   }
   .left-data {
     flex: 1;
     display: flex; 
-    
+    margin-top: 65px;
 }
 .left-data h3{
      padding-top: 5px;
      padding-left: 15px;
+     align-items: center;
 }
   .L{
     border: 1px solid white;
@@ -363,21 +436,18 @@ color: white;
     flex: 3;
     display: flex;
     padding-right: 100px;
+    gap: 130px;
+    align-items: center;
+    align-items: center;
   }
-   .ul {
-    list-style-type: none;
-    background-color: red !important;
-    margin: 0px auto;
-   }
    .list-column ul{
-    display: flex;
-    flex-direction: column;
-    /* margin: 0px auto;
-
+     list-style: none;
+     margin-top: 15px;
    }
-   .list-column ul {
-padding: auto;
+   .list-column ul li{
+    margin-top: 10px;
    }
+   /* --------------Footer ended ------------ */
 .inner-footer {
     background-color:#004D7B;
     padding-top: 10px;
@@ -390,6 +460,14 @@ padding: auto;
         margin-top: 20px;
         margin-left: 20px;
      }
- .inner-footer .icons{
-  margin-left: 700px;
-}  */
+   .icons{
+height: fit-content;
+width: fit-content;
+margin-left: 750px;
+margin-top: 15px;
+}   
+.inner-footer .icons img{
+  width: 24px;
+height: 24px;
+margin-right: 20px;
+}
